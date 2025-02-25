@@ -1,0 +1,3 @@
+# Mern-Ecom
+
+This project is a simple eCommerce application built using the MERN stack, which consists of MongoDB, Express.js, React, and Node.js. The application allows users to browse products, add items to their shopping cart, and proceed to checkout. The backend is powered by Node.js and Express.js, providing a RESTful API to handle data operations and user authentication. MongoDB is used as the database to store product details and user information. The frontend is built with React, offering a responsive and interactive user interface. This project serves as a fundamental example to demonstrate how to integrate these technologies to create a full-stack web application.
