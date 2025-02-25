@@ -1,0 +1,35 @@
+{
+  "name": "mern-ecom",
+  "version": "1.0.0",
+  "description": "A minimalist eCommerce application built using the MERN stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developernajib/mern-ecom.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "mern"
+  ],
+  "author": "Md. Najib Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/developernajib/mern-ecom/issues"
+  },
+  "homepage": "https://github.com/developernajib/mern-ecom#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9"
+  }
+}
